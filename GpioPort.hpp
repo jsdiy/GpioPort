@@ -1,5 +1,5 @@
-//	GPIOを8ビットのPORTとして操作する
-//	→ESP32の任意のGPIOを8個同時に制御し、8bit値を読み書きできるポートにする。
+//	GPIOを8ビットPORTとして操作する
+//	・ESP32のGPIOのうち任意の8個をまとめて1つのポートとして制御し、8bit値を入出力できるようにします。
 //	『昼夜逆転』工作室	http://jsdiy.starfree.jp/
 //	2024/07	@jsdiy
 
@@ -18,7 +18,7 @@ private:
 	const	static	uint8_t	PinMax = 8;
 	const	uint8_t	BitVal[PinMax] =
 	{
-	//bit:76543210	
+	//bit:76543210
 		0b00000001,
 		0b00000010,
 		0b00000100,
