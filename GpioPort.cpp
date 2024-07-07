@@ -1,4 +1,5 @@
 //	GPIOを8ビットのPORTとして操作する
+//	→ESP32の任意のGPIOを8個同時に制御し、8bit値を読み書きできるポートにする。
 //	『昼夜逆転』工作室	http://jsdiy.starfree.jp/
 //	2024/07	@jsdiy
 
